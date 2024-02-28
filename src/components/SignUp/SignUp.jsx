@@ -18,10 +18,9 @@ const SignUp = ({ onSignUp }) => {
   };
 
   const handleChangePassword = () => {
-    // You can add logic here to update the password
-    // For the sake of simplicity, we'll just log the new password
+    
     console.log("New Password:", newPassword);
-    // After updating the password, you can set changePasswordMode to false
+    
     setChangePasswordMode(false);
   };
 
