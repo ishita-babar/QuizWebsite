@@ -10,7 +10,7 @@ const TakeQuiz = () => {
   const [score, setScore] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(10); // Timer for each question
+  const [timeLeft, setTimeLeft] = useState(10); 
   const [timerRunning, setTimerRunning] = useState(false);
 
   useEffect(() => {
