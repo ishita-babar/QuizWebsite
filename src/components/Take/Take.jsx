@@ -25,7 +25,7 @@ const TakeQuiz = () => {
 
   useEffect(() => {
     if (timeLeft === 0) {
-      handleAnswer(""); // Automatically submit blank answer when time is up
+      handleAnswer(""); 
     }
   }, [timeLeft]);
 
